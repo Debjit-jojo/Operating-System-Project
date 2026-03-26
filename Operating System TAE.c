@@ -4,7 +4,7 @@
 #define MAX 100
 
 // Function to check if page is present in frames
-int isPagePresent(int frames[], int frameCount, int page) {
+int isPagePresent(int frames[], int frameCount, int page){
     for (int i = 0; i < frameCount; i++) {
         if (frames[i] == page)
             return 1;
